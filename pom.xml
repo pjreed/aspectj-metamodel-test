@@ -5,10 +5,10 @@
         >
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.swri.datasys</groupId>
-    <artifactId>aspectj-source-generation-test</artifactId>
+    <artifactId>aspectj-metamodel-test</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>AspectJ source generation test</name>
+    <name>AspectJ Hibernate JPA Metamodel generation test</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java-version>1.7</java-version>
@@ -38,7 +38,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
-                <inherited>false</inherited>
                 <executions>
                     <execution>
                         <id>default-compile</id>
@@ -50,7 +49,6 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>aspectj-maven-plugin</artifactId>
                 <version>1.8</version>
-                <inherited>false</inherited>
                 <configuration>
                     <source>${java-version}</source>
                     <target>${java-version}</target>
