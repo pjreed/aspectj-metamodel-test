@@ -11,9 +11,9 @@
     <name>AspectJ Hibernate JPA Metamodel generation test</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java-version>1.7</java-version>
-        <hibernate.version>5.1.0.Final</hibernate.version>
-        <aspectj.version>1.8.7</aspectj.version>
+        <java-version>1.8</java-version>
+        <hibernate.version>5.2.10.Final</hibernate.version>
+        <aspectj.version>1.8.10</aspectj.version>
     </properties>
     <dependencies>
         <dependency>
@@ -48,7 +48,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>aspectj-maven-plugin</artifactId>
-                <version>1.8</version>
+                <version>1.10</version>
                 <configuration>
                     <source>${java-version}</source>
                     <target>${java-version}</target>
